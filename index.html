@@ -14,12 +14,18 @@
   </head>
   <body>
     <div class="container">
-      <button id="new-deck" class="newdeck">New Deck</button>
+      <div class="top">
+        <button id="new-deck" class="newdeck">New Deck</button>
+        <p id="remaining"></p>
+      </div>
+      <h2 id="header">Begin Game!</h2>
+      <h3 id="computer-score"></h3>
       <div id="cards">
         <div class="card-slot"></div>
         <div class="card-slot"></div>
       </div>
-      <button id="draw-card" class="drawcard">Draw Deck</button>
+      <h3 id="my-score"></h3>
+      <button disabled id="draw-card" class="drawcard">Draw Cards</button>
     </div>
     <script src="index.js"></script>
   </body>

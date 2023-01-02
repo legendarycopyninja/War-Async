@@ -8,6 +8,7 @@ body {
     background-image: url('Images/table.png');
    background-size: cover;
    font-family: 'Exo 2' , sans-serif;
+   color: whitesmoke;
    
 }
 
@@ -46,10 +47,32 @@ div.card-slot {
 }
 
 div.card-slot:nth-of-type(1) {
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 img.card {
     width: 100%;
     height: 100%;
+}
+
+div.top {
+    display: flex;
+    align-self: flex-start;
+}
+
+div.top > p {
+    margin: 0;
+    margin-left: 10px;
+}
+
+button:disabled {
+    cursor: not-allowed;
+}
+
+h2 {
+    margin: 10px;
+}
+
+h3 {
+    margin-top: 0;
 }
